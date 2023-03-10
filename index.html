@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ortombo</title>
+    <link rel="stylesheet" href="./css/general.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/8991c32132.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-black">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img
+            src="./img/logocalisma.png"
+            alt="Bootstrap"
+            width="175"
+            height="75"
+          />
+        </a>
+        <button
+          class="navbar-toggler siyah"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon siyah"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown text-white">
+              <a
+                class="nav-link text-white mainfont siyah"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Simulatör / Kokpitler
+              </a>
+              <ul class="dropdown-menu siyah text-white siyah">
+                <li>
+                  <a class="dropdown-item text-white siyah mainfont" href="#"
+                    >Direct Drive</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item text-white siyah mainfont" href="#"
+                    >Phase</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item text-white siyah mainfont" href="#"
+                    >Apex</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item text-white">
+              <a class="nav-link text-white mainfont siyah" href="#"
+                >Direksiyon Standı</a
+              >
+            </li>
+            <li class="nav-item text-white">
+              <a class="nav-link text-white mainfont siyah" href="#"
+                >Pedallar</a
+              >
+            </li>
+            <li class="nav-item text-white">
+              <a class="nav-link text-white mainfont siyah" href="#"
+                >Koltuklar</a
+              >
+            </li>
+            <li class="nav-item text-white sepet">
+              <a href="sepet.html" class="nav-link text-white mainfont siyah"
+                >Sepet <span>0</span></a
+              >
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn siyahbuton" type="submit">Ara</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- Sidebar - Slider -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-2 sidebar text-center">
+          <ul>
+            <li class="nav-item text-white">
+              <a class="nav-link text-white mainfont siyah" href="#"
+                >Moza Racing</a
+              >
+            </li>
+            <li class="nav-item text-white">
+              <a class="nav-link text-white mainfont siyah" href="#">Fanatec</a>
+            </li>
+            <li class="nav-item text-white">
+              <a class="nav-link text-white mainfont siyah" href="#"
+                >Thrustmaster</a
+              >
+            </li>
+            <li class="nav-item text-white">
+              <a class="nav-link text-white mainfont siyah" href="#">Sparco</a>
+            </li>
+            <li class="nav-item text-white">
+              <a class="nav-link text-white mainfont siyah" href="#">Ortombo</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-10 slider">
+          <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="3"
+                aria-label="Slide 4"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="4"
+                aria-label="Slide 5"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/slider1.jpg" class="d-block w-100" alt="..." />
+              </div>
+              <div class="carousel-item">
+                <img src="img/slider2.jpg" class="d-block w-100" alt="..." />
+              </div>
+              <div class="carousel-item">
+                <img src="img/slider3.jpg" class="d-block w-100" alt="..." />
+              </div>
+              <div class="carousel-item">
+                <img src="img/slider4.jpg" class="d-block w-100" alt="..." />
+              </div>
+              <div class="carousel-item">
+                <img src="img/slider5.jpg" class="d-block w-100" alt="..." />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Seçtiklerimiz -->
+    <div class="container">
+      <div class="row ortalamaca">
+        <div class="col-2 w-100 text-center sectiklerimiz">
+          <p class="mainfont">Sizin için Seçtiklerimiz</p>
+        </div>
+      </div>
+    </div>
+    <!-- Ürünler -->
+    <div class="container m-auto">
+      <div class="row row-cols-1 row-cols-md-4 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <a href="">
+              <img src="./img/moza1.png" class="card-img-top w-100" alt="..." />
+            </a>
+            <div class="card-body">
+              <p class="card-text text-center">
+                Moza Racing DD R5 Direct Drive Yarış Direksiyonu Seti 5nm Tork
+              </p>
+              <h5 class="card-title text-center">20.700 TL</h5>
+              <div class="m-auto text-center p-2 mt-3">
+                <a href="#" class="sepetekle sepete-ekle" id="1">Sepete Ekle</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <a href="">
+              <img
+                src="./img/mozafsr.png"
+                class="card-img-top w-100"
+                alt="..."
+              />
+            </a>
+            <div class="card-body">
+              <p class="card-text text-center">
+                Moza FSR Steering wheel direksiyon simidi ekranlı
+              </p>
+              <h5 class="card-title text-center">20.420 TL</h5>
+              <div class="m-auto text-center p-2 mt-3">
+                <a href="#" class="sepetekle sepete-ekle">Sepete Ekle</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <a href="">
+              <img src="./img/moza3.png" class="card-img-top w-100" alt="..." />
+            </a>
+            <div class="card-body">
+              <p class="card-text text-center">
+                Moza GS Steering wheel direksiyon simidi
+              </p>
+              <h5 class="card-title text-center">16.800 TL</h5>
+              <div class="m-auto text-center p-2 mt-3">
+                <a href="#" class="sepetekle sepete-ekle">Sepete Ekle</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <a href="">
+              <img
+                src="./img/ortombo-dd1.png"
+                class="card-img-top w-100"
+                alt="..."
+              />
+            </a>
+            <div class="card-body">
+              <p class="card-text text-center">
+                Ortombo DD1 Direksiyon Standı Direct Drive uyumlu
+              </p>
+              <h5 class="card-title text-center">4.300 TL</h5>
+              <div class="m-auto text-center p-2 mt-3">
+                <a href="#" class="sepetekle sepete-ekle">Sepete Ekle</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <a href="">
+              <img
+                src="./img/ortombo-phase1.png"
+                class="card-img-top w-100"
+                alt="..."
+              />
+            </a>
+            <div class="card-body">
+              <p class="card-text text-center">
+                Ortombo Phase 1 Yarış simulatörü F-1/GT / Hybrit mod
+              </p>
+              <h5 class="card-title text-center">16.300 TL</h5>
+              <div class="m-auto text-center p-2 mt-3">
+                <a href="#" class="sepetekle sepete-ekle">Sepete Ekle</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <a href="">
+              <img
+                src="./img/ortombo-formula-podium.png"
+                class="card-img-top w-100"
+                alt="..."
+              />
+            </a>
+            <div class="card-body">
+              <p class="card-text text-center">
+                Ortombo Podium Formula yarış simulatörü
+              </p>
+              <h5 class="card-title text-center">20.700 TL</h5>
+              <div class="m-auto text-center p-2 mt-3">
+                <a href="#" class="sepetekle sepete-ekle">Sepete Ekle</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <a href="">
+              <img
+                src="./img/Mozabase.png"
+                class="card-img-top w-100"
+                alt="..."
+              />
+            </a>
+            <div class="card-body">
+              <p class="card-text text-center">
+                Moza DD R9 direct drive direksiyon seti motoru 9nm Tork
+              </p>
+              <h5 class="card-title text-center">15.000 TL</h5>
+              <div class="m-auto text-center p-2 mt-3">
+                <a href="#" class="sepetekle sepete-ekle">Sepete Ekle</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <a href="">
+              <img
+                src="./img/th8ashifter.png"
+                class="card-img-top w-100"
+                alt="..."
+              />
+            </a>
+            <div class="card-body">
+              <p class="card-text text-center">
+                Thrustmaster TH8A Vites PC xbox PS4 / PS5 uyumlu vites
+              </p>
+              <h5 class="card-title text-center">8.000 TL</h5>
+              <div class="m-auto text-center p-2 mt-3">
+                <a href="#" class="sepetekle sepete-ekle">Sepete Ekle</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
+    <footer>
+      <div class="row">
+        <div class="col-4">
+          <ul class="text-center">
+            <li class="sari">Markalar</li>
+            <li><a href="">Moza Racing</a></li>
+            <li><a href="">Fanatec</a></li>
+            <li><a href="">Thrustmaster</a></li>
+            <li><a href="">Sparco</a></li>
+            <li><a href="">Ortombo</a></li>
+          </ul>
+        </div>
+        <div class="col-4">
+          <ul class="text-center">
+            <li class="sari">Üyelik</li>
+            <li><a href="login.html">Giriş Yap</a></li>
+            <li><a href="register-yeni.html">Kayıt Ol</a></li>
+
+            <li class="sariilet sari">Bizi Takip Edin</li>
+            <li>
+              <i class="fa-brands fa-square-instagram instagram"></i>
+              <i class="fa-brands fa-square-twitter twitter"></i>
+              <i class="fa-brands fa-square-facebook facebook"></i>
+            </li>
+          </ul>
+        </div>
+        <div class="col-4">
+          <ul class="text-center">
+            <li><img src="./img/logocalisma.png" alt="" /></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

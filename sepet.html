@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ortombo</title>
+    <link rel="stylesheet" href="./css/general.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/8991c32132.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-black">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img
+            src="./img/logocalisma.png"
+            alt="Bootstrap"
+            width="175"
+            height="75"
+          />
+        </a>
+        <button
+          class="navbar-toggler siyah"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon siyah"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown text-white">
+              <a
+                class="nav-link text-white mainfont siyah"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Simulatör / Kokpitler
+              </a>
+              <ul class="dropdown-menu siyah text-white siyah">
+                <li>
+                  <a class="dropdown-item text-white siyah mainfont" href="#"
+                    >Direct Drive</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item text-white siyah mainfont" href="#"
+                    >Phase</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item text-white siyah mainfont" href="#"
+                    >Apex</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item text-white">
+              <a class="nav-link text-white mainfont siyah" href="#"
+                >Direksiyon Standı</a
+              >
+            </li>
+            <li class="nav-item text-white">
+              <a class="nav-link text-white mainfont siyah" href="#"
+                >Pedallar</a
+              >
+            </li>
+            <li class="nav-item text-white">
+              <a class="nav-link text-white mainfont siyah" href="#"
+                >Koltuklar</a
+              >
+            </li>
+            <li class="nav-item text-white sepet">
+              <a href="sepet.html" class="nav-link text-white mainfont siyah"
+                >Sepet <span>0</span></a
+              >
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn siyahbuton" type="submit">Ara</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div class="container d-flex m-auto w-100 products-container">
+      <div class="product-header">
+        <h5 class="product-title">Ürün</h5>
+        <h5 class="price">Fiyat</h5>
+        <h5 class="quantity">Sayısı</h5>
+        <h5 class="total">Toplam</h5>
+      </div>
+      <div class="products"></div>
+      <div class="row">
+        <div class="col-12">
+          <div class="yazartik"></div>
+          <div class="temizlik">
+            <button class="temizleme mt-2" onclick="temizle()">
+              Sepeti Temizle
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

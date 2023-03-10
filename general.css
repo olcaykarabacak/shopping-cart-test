@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black !important;
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.mainfont {
+  font-family: "Montserrat", sans-serif;
+}
+
+.mainfontb {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600 !important;
+}
+
+.siyah {
+  background-color: black !important;
+  color: white !important;
+  transition: 1.5s !important;
+}
+
+.siyah:hover {
+  background-color: black !important;
+  color: yellow !important;
+}
+
+.siyahbuton {
+  background-color: black !important;
+  color: white !important;
+  border-color: white !important;
+  transition: 1.5s !important;
+}
+
+.siyahbuton:hover {
+  color: yellow !important;
+  border-color: yellow !important;
+}
+
+.sidebar {
+  background-color: black;
+}
+
+.sidebar ul li {
+  list-style: none;
+  padding: 17px 0;
+}
+
+.slider {
+  background-color: black;
+}
+
+.ortalamaca {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.sectiklerimiz {
+  border: 2px solid white;
+  margin: 20px !important;
+  padding: 10px;
+  color: white;
+  border-radius: 20px 0;
+  align-items: center !important;
+  font-size: 32px;
+  animation: blinker 2s infinite;
+  font-weight: 600;
+}
+
+@keyframes blinker {
+  from {
+    color: white;
+  }
+  50% {
+    color: yellow;
+  }
+  to {
+    color: white;
+  }
+}
+
+.sari {
+  color: yellow;
+  padding-bottom: 10px;
+}
+
+.sariilet {
+  padding-top: 15px;
+}
+
+footer {
+  background-color: #161515;
+  color: white;
+  padding: 20px;
+  margin-top: 30px;
+}
+footer ul {
+  list-style-type: none;
+}
+footer ul li a {
+  text-decoration: none;
+  color: white;
+}
+footer ul li i {
+  font-size: 32px;
+}
+.instagram {
+  color: transparent;
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  background: -webkit-radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+.twitter {
+  color: #1da1f2;
+}
+.facebook {
+  color: #4267b2;
+}
